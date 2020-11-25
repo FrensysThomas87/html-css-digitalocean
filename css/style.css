@@ -134,3 +134,26 @@ header .navbar ul li a{
 }
 
 /*END JUMBOTRON*/
+
+/*MEDIA QUERY*/
+@media screen and (min-width:768px){
+
+/*jumbotron*/
+
+  .bl-jumbotron-desc h1 strong{
+    font-size: 36px;
+  }
+
+  .bl-jumbotron-desc p{
+    font-size: 20px;
+  }
+
+  .reg-form{
+    margin-top: 40px;
+    height: 430px;
+    padding-top: 30px;
+  }
+
+  /*end jumbotron*/
+}
+/*END MEDIA QUERY*/
