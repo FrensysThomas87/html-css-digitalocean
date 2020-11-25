@@ -20,11 +20,18 @@ header .navbar ul li{
 }
 
 .logo{
-  height:40px;
+  width:140px;
 }
+
+
 
 .right li,
 .central li{
   margin-top: 5px;
   padding-right: 15px;
+}
+
+.bl-btn{
+  border: 1px solid blue;
+  color: blue;
 }
