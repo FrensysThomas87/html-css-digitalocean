@@ -44,8 +44,36 @@ header .navbar ul li a{
 
 /*END NAVBAR*/
 
+/*JUMBOTRON*/
 .bl-jumbotron{
-  height: 650px;
+  height: 950px;
   background-image: url("../img/bg-home-1-d54581d7.jpg");
   background-size: cover;
+  padding: 0;
 }
+
+
+.bl-jumbotron-desc{
+  color: #fff;
+  text-align: left;
+  margin-top: 50px;
+
+}
+
+.bl-jumbotron-desc h1{
+  font-size: 30px;
+}
+
+.bl-jumbotron-desc p{
+  font-size: 18px;
+}
+
+.reg-form{
+  height: 400px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+
+}
+
+/*END JUMBOTRON*/
