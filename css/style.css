@@ -1,0 +1,30 @@
+
+
+.navbar ul li .logo{
+
+}
+
+
+header .navbar{
+  margin-top: 30px;
+  height: 50px;
+}
+
+header .navbar ul{
+  height: 50px;
+  line-height: 50px;
+}
+
+header .navbar ul li{
+  display: inline-block;
+}
+
+.logo{
+  height:40px;
+}
+
+.right li,
+.central li{
+  margin-top: 5px;
+  padding-right: 15px;
+}
