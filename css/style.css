@@ -1,8 +1,6 @@
 
 
-.navbar ul li .logo{
-
-}
+/*NAVBAR*/
 
 
 header .navbar{
@@ -42,4 +40,12 @@ header .navbar ul li a{
 
 .hamburger{
   margin-top: 6px;
+}
+
+/*END NAVBAR*/
+
+.bl-jumbotron{
+  height: 650px;
+  background-image: url("../img/bg-home-1-d54581d7.jpg");
+  background-size: cover;
 }
