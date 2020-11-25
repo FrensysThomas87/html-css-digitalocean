@@ -19,6 +19,10 @@ header .navbar ul li{
   display: inline-block;
 }
 
+header .navbar ul li a{
+  color: blue;
+}
+
 .logo{
   width:140px;
 }
@@ -34,4 +38,8 @@ header .navbar ul li{
 .bl-btn{
   border: 1px solid blue;
   color: blue;
+}
+
+.hamburger{
+  margin-top: 6px;
 }
