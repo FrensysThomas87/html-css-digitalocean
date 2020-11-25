@@ -156,4 +156,29 @@ header .navbar ul li a{
 
   /*end jumbotron*/
 }
+
+@media screen and (min-width:992px){
+  .bl-jumbotron-desc h1 strong{
+    font-size: 60px;
+  }
+
+  .bl-jumbotron-desc p{
+    font-size: 28px;
+  }
+
+
+}
+
+
+@media screen and (min-width:992px) and (max-width:1199px){
+  .bl-jumbotron-desc h1 strong{
+    font-size: 50px;
+  }
+
+  .bl-jumbotron-desc p{
+    font-size: 27px;
+  }
+
+
+}
 /*END MEDIA QUERY*/
