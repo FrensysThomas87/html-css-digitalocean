@@ -30,6 +30,7 @@ header .navbar ul li a{
   color: blue;
 }
 
+
 .logo{
   width:140px;
 }
@@ -39,8 +40,14 @@ header .navbar ul li a{
 .right li,
 .central li{
   margin-top: 5px;
-  padding-right: 15px;
+  padding-right: 5px;
 }
+
+.central li:last-child{
+  padding: 0;
+}
+
+
 
 .bl-btn{
   border: 1px solid blue;
@@ -88,10 +95,9 @@ header .navbar ul li a{
   padding: 0 18px;
 }
 
-.bl-btn-sign i{
-  text-align: left;
-}
+.fa.fa-google{
 
+}
 
 
 /*END JUMBOTRON*/
