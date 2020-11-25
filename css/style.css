@@ -158,6 +158,20 @@ header .navbar ul li a{
 }
 
 @media screen and (min-width:992px){
+
+  /*navbar*/
+  .right li,
+  .central li{
+    margin-top: 5px;
+    padding-right: 10px;
+  }
+
+  .central li:last-child{
+    padding: 0;
+  }
+  /*end navbar*/
+
+
   .bl-jumbotron-desc h1 strong{
     font-size: 60px;
   }
