@@ -68,10 +68,10 @@ header .navbar ul li a{
 
 /*JUMBOTRON*/
 .bl-jumbotron{
-  height: 950px;
+  padding-bottom: 50px;
   background-image: url("../img/bg-home-1-d54581d7.jpg");
   background-size: cover;
-  padding: 0;
+
 }
 
 
@@ -91,7 +91,7 @@ header .navbar ul li a{
 }
 
 .reg-form{
-  height: 400px;
+  height: 380px;
   background-color: #fff;
   border-radius: 4px;
   text-align: center;
@@ -119,6 +119,18 @@ header .navbar ul li a{
 
 .bl-btn-google{
   background-color: #fff;
+}
+
+.bl-jumbotron .container .row .reg-form p{
+  margin-top: 15px;
+}
+
+.bl-jumbotron .container .row .reg-form p a{
+  text-decoration: underline;
+}
+
+.bl-form ::placeholder{
+  color: #757575;
 }
 
 /*END JUMBOTRON*/
