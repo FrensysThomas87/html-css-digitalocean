@@ -1,7 +1,16 @@
 
+/*UTILITIES*/
+.dark-blue{
+  color:#031b4e;
+}
+
+.light-blue{
+  color: #3080f0;
+}
+/*END UTILITIES*/
+
 
 /*NAVBAR*/
-
 
 header .navbar{
   margin-top: 30px;
@@ -73,7 +82,16 @@ header .navbar ul li a{
   background-color: #fff;
   border-radius: 4px;
   text-align: center;
-
 }
+
+.reg-form h2:first-child{
+  padding: 0 18px;
+}
+
+.bl-btn-sign i{
+  text-align: left;
+}
+
+
 
 /*END JUMBOTRON*/
