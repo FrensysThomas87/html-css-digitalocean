@@ -240,7 +240,6 @@ header .navbar ul li a{
 /*DESIG FOR DEV SECTION*/
 .designed-for-dev-section{
   background-color: #ccc;
-  height: 800px;
   text-align: center;
   padding: 50px 20px;
 }
@@ -253,12 +252,34 @@ header .navbar ul li a{
   margin-top: 150px;
   width: 300px;
   height: 200px;
-  background-color: red;
   position: relative;
   left: 50%;
   transform: translate(-50%);
   background-image: url("../img/design-for-dev.webp") ;
   background-size: cover;
+  position: relative;
+}
+
+.fa.fa-chevron-left,.fa.fa-chevron-right
+{
+  position: absolute;
+  top:50%;
+  font-size: 50px;
+  transform: translate(0, -50%);
+}
+
+.fa.fa-chevron-right{
+  right:-50px;
+}
+
+.fa.fa-chevron-left{
+  left:-50px;
+}
+
+.fa.fa-chevron-left:hover,
+.fa.fa-chevron-right:hover{
+  cursor: pointer;
+  color: #000;
 }
 
 .designed-for-dev-section .container p{
@@ -335,11 +356,28 @@ header .navbar ul li a{
   }
   /*END PARTNERS SECTION*/
 
-  /*Deploy and scale seamlessly*/
+  /*DEPLOY AND SCALE SEAMLESSLY*/
   .deploy-scale-section p{
     font-size: 20px;
   }
-  /*end Deploy and scale seamlessly*/
+  /*END DEPLOY AND SCALE SEAMLESSLY*/
+
+
+  /*DESIGNED FOR DEV SECTIONS*/
+  .designed-for-dev-section h2{
+    font-size: 35px;
+  }
+
+  .for-dev-img-container{
+    width: 450px;
+    height: 300px;
+}
+
+.designed-for-dev-section .container p{
+  font-size: 16px;
+}
+
+  /*END DESIGNED FOR DEV SECTIONS*/
 }
 
 @media screen and (min-width:992px){
