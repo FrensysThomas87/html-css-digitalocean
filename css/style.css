@@ -68,10 +68,11 @@ header .navbar ul li a{
 
 /*JUMBOTRON*/
 .bl-jumbotron{
+  height: 720px;
   padding-bottom: 50px;
   background-image: url("../img/bg-home-1-d54581d7.jpg");
   background-size: cover;
-
+  padding: 0 10px;
 }
 
 
@@ -140,6 +141,10 @@ header .navbar ul li a{
 
 /*jumbotron*/
 
+.bl-jumbotron{
+  height: 500px;
+}
+
   .bl-jumbotron-desc h1 strong{
     font-size: 36px;
   }
@@ -171,6 +176,8 @@ header .navbar ul li a{
   }
   /*end navbar*/
 
+/*JUMBOTRON*/
+
 
   .bl-jumbotron-desc h1 strong{
     font-size: 60px;
@@ -186,6 +193,7 @@ header .navbar ul li a{
     padding-top: 25px;
   }
 
+/*END JUMBOTRON*/
 
 }
 
