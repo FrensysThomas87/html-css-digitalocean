@@ -326,6 +326,51 @@ header .navbar ul li a{
 }
 /*END FEATURES BUSINESS SECTION*/
 
+/*CUSTOMERS AROUND THE WORLD*/
+.customers-world{
+  background-color: #1551c4;
+  padding: 50px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.customers-world h2{
+  font-size: 35px;
+}
+
+
+.customers-world ul{
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+
+.customers-world ul{
+  padding-bottom: 10px;
+}
+
+.border-bottom-ul{
+  border-bottom: 1px solid #fff;
+}
+
+.customers-world ul li a{
+  color: #00b4cd;
+  margin-right: 15px;
+}
+
+
+
+.customers-world ul li{
+  display: inline-block;
+
+}
+
+.customers-world ul:nth-child(7){
+  margin-top: 50px;
+}
+/*END CUSTOMERS AROUND THE WORLD*/
+
 /*MEDIA QUERY*/
 @media screen and (min-width:768px){
 
@@ -479,7 +524,6 @@ header .navbar ul li a{
 /*END DESIGNED FOR DEV SECTION*/
 
 }
-
 
 @media screen and (min-width:992px) and (max-width:1199px){
 
