@@ -7,6 +7,10 @@
 .light-blue{
   color: #3080f0;
 }
+
+.float-l{
+  float: left;
+}
 /*END UTILITIES*/
 
 
@@ -72,7 +76,7 @@ header .navbar ul li a{
   padding-bottom: 50px;
   background-image: url("../img/bg-home-1-d54581d7.jpg");
   background-size: cover;
-  padding: 0 10px;
+
 }
 
 
@@ -89,6 +93,11 @@ header .navbar ul li a{
 
 .bl-jumbotron-desc p{
   font-size: 18px;
+}
+
+
+.jumbotron-form-container{
+  padding: 0 15px;
 }
 
 .reg-form{
@@ -153,6 +162,9 @@ header .navbar ul li a{
     font-size: 20px;
   }
 
+  .jumbotron-form-container{
+    padding: 0;
+  }
   .reg-form{
     margin-top: 40px;
     height: 430px;
