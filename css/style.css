@@ -169,12 +169,12 @@ header .navbar ul li a{
 .logo-partners-container{
   margin-top: 50px;
   width: 220px;
+  vertical-align: middle;
 
 }
 
 .logo-partners-container img{
   width: 100%;
-
 }
 
 
