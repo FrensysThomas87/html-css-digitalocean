@@ -206,16 +206,16 @@ header .navbar ul li a{
   color: #757575;
 }
 
-.services{
+/* .services{
   margin-top: 50px;
   text-align: left;
   border-left: 1px solid #757575;
-}
+} */
 
 .possibilities{
   border-left: 1px solid #757575;
   text-align: left;
-  line-height: 35px;
+  line-height: 50px;
 }
 
 .features{
@@ -368,6 +368,10 @@ header .navbar ul li a{
 
 .customers-world ul:nth-child(7){
   margin-top: 50px;
+}
+
+.customers-world .container .row .ul-customers-container ul li:nth-child(2){
+  color: #B1C1E8;
 }
 /*END CUSTOMERS AROUND THE WORLD*/
 
