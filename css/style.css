@@ -165,18 +165,18 @@ header .navbar ul li a{
 }
 
 
-
-.logo-partners-container{
+.loghi-container img{
+  width: 175px;
   margin-top: 50px;
-  width: 220px;
   vertical-align: middle;
 
 }
 
-.logo-partners-container img{
-  width: 100%;
+.loghi-container img:first-child,
+.loghi-container img:nth-child(3),
+.loghi-container img:nth-child(5){
+    margin-right: 70px;
 }
-
 
 
 /*END PARTNERS SECTION*/
