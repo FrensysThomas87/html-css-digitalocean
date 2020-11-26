@@ -420,6 +420,25 @@ header .navbar ul li a{
 }
 /*END PARTNERS SECTION*/
 
+/*DESIGNED FOR DEV SECTION*/
+.for-dev-img-container{
+  margin-top: 50px;
+  width: 600px;
+  height: 400px;
+}
+
+.fa.fa-chevron-left,.fa.fa-chevron-right
+{
+
+  font-size: 40px;
+
+}
+
+.circles{
+  margin-top: 10px;
+}
+/*END DESIGNED FOR DEV SECTION*/
+
 }
 
 
