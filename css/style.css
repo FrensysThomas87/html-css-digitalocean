@@ -8,6 +8,10 @@
   color: #3080f0;
 }
 
+.dark-grey{
+  color:#757575;
+}
+
 .float-l{
   float: left;
 }
@@ -206,6 +210,27 @@ header .navbar ul li a{
   margin-top: 50px;
   text-align: left;
   border-left: 1px solid #757575;
+}
+
+.possibilities{
+  border-left: 1px solid #757575;
+  text-align: left;
+}
+
+.features{
+  text-align: left;
+}
+
+.features:first-child{
+  margin-top: 20px;
+}
+
+.features h4{
+  margin-top: 20px;
+}
+
+.features p{
+  font-size: 16px;
 }
 
 /*END DEPLOY-SCALE-SECTION*/
