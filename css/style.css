@@ -187,13 +187,33 @@ header .navbar ul li a{
   font-size: 20px;
 }
 
-
 /*END PARTNERS SECTION*/
+
+/*DEPLOY-SCALE-SECTION*/
+
+.deploy-scale-section{
+  text-align: center;
+  padding: 40px 15px;;
+  height: 600px;
+}
+
+.deploy-scale-section p{
+  font-size: 18px;
+  color: #757575;
+}
+
+.services{
+  margin-top: 50px;
+  text-align: left;
+  border-left: 1px solid #757575;
+}
+
+/*END DEPLOY-SCALE-SECTION*/
 
 /*MEDIA QUERY*/
 @media screen and (min-width:768px){
 
-/*jumbotron*/
+/*JUMBOTRON*/
 
 .bl-jumbotron{
   height: 500px;
@@ -216,9 +236,9 @@ header .navbar ul li a{
     padding-top: 30px;
   }
 
-  /*end jumbotron*/
+  /*END JUMBOTRON*/
 
-  /*partners section*/
+  /*PARTNERS SECTION*/
 
   .partners-section{
 
@@ -242,12 +262,13 @@ header .navbar ul li a{
   .partners-section .container p .light-blue span strong{
     font-size: 16px;
   }
-  /*end partners section*/
+  /*END PARTNERS SECTION*/
 }
 
 @media screen and (min-width:992px){
 
-  /*navbar*/
+  /*NAVBAR*/
+
   .right li,
   .central li{
     margin-top: 5px;
@@ -257,10 +278,9 @@ header .navbar ul li a{
   .central li:last-child{
     padding: 0;
   }
-  /*end navbar*/
+  /*END NAVBAR*/
 
 /*JUMBOTRON*/
-
 
   .bl-jumbotron-desc h1 strong{
     font-size: 60px;
