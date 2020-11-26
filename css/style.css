@@ -152,7 +152,7 @@ header .navbar ul li a{
 /*PARTNERS SECTION*/
 
 .partners-section{
-  height: 600px;
+
   background-color: #ccc;
   text-align: center;
   padding: 30px 15px;;
@@ -176,6 +176,15 @@ header .navbar ul li a{
 .loghi-container img:nth-child(3),
 .loghi-container img:nth-child(5){
     margin-right: 70px;
+}
+
+.partners-section .container p{
+  margin-top: 30px;
+
+}
+
+.partners-section .container p .light-blue span strong{
+  font-size: 20px;
 }
 
 
@@ -208,6 +217,32 @@ header .navbar ul li a{
   }
 
   /*end jumbotron*/
+
+  /*partners section*/
+
+  .partners-section{
+
+    background-color: #ccc;
+    text-align: center;
+    padding: 50px 15px;
+
+  }
+
+  .loghi-container img{
+    width: 100px;
+    margin-right: 10px;
+  }
+
+  .loghi-container img:first-child,
+  .loghi-container img:nth-child(3),
+  .loghi-container img:nth-child(5){
+      margin-right: 0;
+  }
+
+  .partners-section .container p .light-blue span strong{
+    font-size: 16px;
+  }
+  /*end partners section*/
 }
 
 @media screen and (min-width:992px){
@@ -243,7 +278,12 @@ header .navbar ul li a{
 
 /*END JUMBOTRON*/
 
-
+/*PARTNERS SECTION*/
+.loghi-container img{
+  width: 150px;
+   margin-right: 15px;
+}
+/*END PARTNERS SECTION*/
 
 }
 
@@ -252,6 +292,7 @@ header .navbar ul li a{
 
 
 
+  /*JUMBOTRON*/
 
   .bl-jumbotron-desc h1 strong{
     font-size: 50px;
@@ -266,6 +307,15 @@ header .navbar ul li a{
     height: 410px;
     padding-top: 15px;
   }
+
+  /*END JUMBOTRON*/
+
+  /*PARTNERS SECTION*/
+  .loghi-container img{
+    width: 110px;
+    margin-right: 15px;
+  }
+  /*END PARTNERS SECTION*/
 
 
 }
