@@ -302,6 +302,30 @@ header .navbar ul li a{
 }
 /*END DESIG FOR DEV SECTION*/
 
+/*FEATURES BUSINESS SECTION*/
+.features-business-section{
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.features-business{
+  text-align: left;
+}
+
+.icon-features-container{
+  margin-top: 25px;
+}
+
+.icon-features-container img{
+  width: 40px;
+}
+
+
+.features-business p{
+  font-size: 14px;
+}
+/*END FEATURES BUSINESS SECTION*/
+
 /*MEDIA QUERY*/
 @media screen and (min-width:768px){
 
@@ -376,9 +400,24 @@ header .navbar ul li a{
 .designed-for-dev-section .container p{
   font-size: 16px;
 }
+/*END DESIGNED FOR DEV SECTIONS*/
 
-  /*END DESIGNED FOR DEV SECTIONS*/
+/*FEATURES BUSINESS SECTION*/
+.features-business-section h2{
+  font-size: 40px;
 }
+
+.features-business-section p{
+  font-size: 15px;
+}
+
+.features-business-section .container .row a strong{
+  font-size: 15px;
+}
+/*END FEATURES BUSINESS SECTION*/
+}
+
+
 
 @media screen and (min-width:992px){
 
@@ -444,9 +483,7 @@ header .navbar ul li a{
 
 @media screen and (min-width:992px) and (max-width:1199px){
 
-
-
-  /*JUMBOTRON*/
+/*JUMBOTRON*/
 
   .bl-jumbotron-desc h1 strong{
     font-size: 50px;
