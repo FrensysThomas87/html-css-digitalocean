@@ -197,8 +197,8 @@ header .navbar ul li a{
 
 .deploy-scale-section{
   text-align: center;
-  padding: 40px 15px;;
-  height: 600px;
+  padding: 40px 20px;;
+
 }
 
 .deploy-scale-section p{
@@ -236,6 +236,50 @@ header .navbar ul li a{
 }
 
 /*END DEPLOY-SCALE-SECTION*/
+
+/*DESIG FOR DEV SECTION*/
+.designed-for-dev-section{
+  background-color: #ccc;
+  height: 800px;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.designed-for-dev-section h3{
+  margin-top: 30px;
+}
+
+.for-dev-img-container{
+  margin-top: 150px;
+  width: 300px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  background-image: url("../img/design-for-dev.webp") ;
+  background-size: cover;
+}
+
+.designed-for-dev-section .container p{
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.circles{
+  width: 12px;
+  height: 12px;
+  border: 1px solid #3080f0;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.circles:hover{
+  background-color: #3080f0;
+  cursor: pointer;
+}
+/*END DESIG FOR DEV SECTION*/
 
 /*MEDIA QUERY*/
 @media screen and (min-width:768px){
@@ -290,6 +334,12 @@ header .navbar ul li a{
     font-size: 16px;
   }
   /*END PARTNERS SECTION*/
+
+  /*Deploy and scale seamlessly*/
+  .deploy-scale-section p{
+    font-size: 20px;
+  }
+  /*end Deploy and scale seamlessly*/
 }
 
 @media screen and (min-width:992px){
