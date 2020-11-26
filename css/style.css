@@ -215,10 +215,12 @@ header .navbar ul li a{
 .possibilities{
   border-left: 1px solid #757575;
   text-align: left;
+  line-height: 35px;
 }
 
 .features{
   text-align: left;
+  margin-top: 20px;
 }
 
 .features:first-child{
