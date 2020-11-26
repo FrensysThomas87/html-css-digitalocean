@@ -11,6 +11,10 @@
 .float-l{
   float: left;
 }
+
+.float-r{
+  float: right;
+}
 /*END UTILITIES*/
 
 
@@ -145,6 +149,38 @@ header .navbar ul li a{
 
 /*END JUMBOTRON*/
 
+/*PARTNERS SECTION*/
+
+.partners-section{
+  height: 600px;
+  background-color: #ccc;
+  text-align: center;
+  padding: 30px 15px;;
+
+}
+
+.partners-section h5{
+    margin: 0;
+    color: #757575;
+}
+
+
+
+.logo-partners-container{
+  margin-top: 50px;
+  width: 220px;
+
+}
+
+.logo-partners-container img{
+  width: 100%;
+
+}
+
+
+
+/*END PARTNERS SECTION*/
+
 /*MEDIA QUERY*/
 @media screen and (min-width:768px){
 
@@ -207,10 +243,16 @@ header .navbar ul li a{
 
 /*END JUMBOTRON*/
 
+
+
 }
 
 
 @media screen and (min-width:992px) and (max-width:1199px){
+
+
+
+
   .bl-jumbotron-desc h1 strong{
     font-size: 50px;
   }
