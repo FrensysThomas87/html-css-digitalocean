@@ -12,6 +12,10 @@
   color:#757575;
 }
 
+.light-grey-bg{
+  background-color: #F3F5F9;
+}
+
 .float-l{
   float: left;
 }
@@ -40,16 +44,10 @@ header .navbar ul li{
   display: inline-block;
 }
 
-header .navbar ul li a{
-  color: blue;
-}
-
 
 .logo{
   width:180px;
 }
-
-
 
 .right li,
 .central li{
@@ -64,8 +62,8 @@ header .navbar ul li a{
 
 
 .bl-btn{
-  border: 1px solid blue;
-  color: blue;
+  border: 1px solid #3080f0;
+
 }
 
 .hamburger{
@@ -156,10 +154,8 @@ header .navbar ul li a{
 /*PARTNERS SECTION*/
 
 .partners-section{
-
-  background-color: #ccc;
   text-align: center;
-  padding: 30px 15px;;
+  padding: 30px 15px;
 
 }
 
@@ -206,11 +202,7 @@ header .navbar ul li a{
   color: #757575;
 }
 
-/* .services{
-  margin-top: 50px;
-  text-align: left;
-  border-left: 1px solid #757575;
-} */
+
 
 .possibilities{
   border-left: 1px solid #757575;
@@ -239,7 +231,7 @@ header .navbar ul li a{
 
 /*DESIG FOR DEV SECTION*/
 .designed-for-dev-section{
-  background-color: #ccc;
+
   text-align: center;
   padding: 50px 20px;
 }
@@ -356,23 +348,35 @@ header .navbar ul li a{
 
 .customers-world ul li a{
   color: #00b4cd;
-  margin-right: 15px;
+   margin-right: 15px;
   text-align: right;
+
 }
 
 .customers-world ul li{
   display: inline-block;
 }
 
+.ul-customers-container ul li:first-child{
+  min-width: 50px;
+
+}
+
+.customers-world .container .row .ul-customers-container ul li:nth-child(2){
+  color: #B1C1E8;
+  margin-left: 50px;
+}
+
+.customers-world .container .row .ul-customers-container ul li:nth-child(3){
+  text-align: right;
+}
 
 
 .customers-world ul:nth-child(7){
   margin-top: 50px;
 }
 
-.customers-world .container .row .ul-customers-container ul li:nth-child(2){
-  color: #B1C1E8;
-}
+
 
 
 
@@ -380,7 +384,7 @@ header .navbar ul li a{
 
 /*ROCKER BOX SECTION*/
 .rocker-box-section{
-  background-color: #ccc;
+
   padding: 50px 2px;
   text-align: center;
 }
@@ -396,12 +400,12 @@ header .navbar ul li a{
 }
 
 .logo-rockerbox-container img{
-  width: 75%;
+  width: 55%;
 }
 
 .rockerbox p{
   margin-top: 15px;
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .rockerbox a p{
@@ -523,13 +527,7 @@ footer h2{
 
   /*PARTNERS SECTION*/
 
-  .partners-section{
 
-    background-color: #ccc;
-    text-align: center;
-    padding: 50px 15px;
-
-  }
 
   .loghi-container img{
     width: 100px;
@@ -591,12 +589,12 @@ footer h2{
 }
 
 .logo-rockerbox-container img{
-  width: 55%;
+  width: 80%;
 }
 
 .rockerbox p{
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 .rockerbox span{
@@ -680,7 +678,7 @@ footer h2{
 
 .rockerbox{
   width: 40%;
-  padding: 70px 0;
+  padding: 70px 5px;
 }
 
 .logo-rockerbox-container img{
@@ -691,12 +689,13 @@ footer h2{
 #fish{
   bottom: 40px;
   right : 30px;
+  left: unset;
 }
 
 #fumetto-fish{
-  bottom: 40px;
+  bottom: 55px;
   right: 150px;
-
+  left:unset;
 }
 /*END FOOTER*/
 
