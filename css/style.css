@@ -593,12 +593,12 @@ footer h2{
 
 /*ROCKER-BOX-SECTION*/
 .rockerbox{
-  width: 450px;
+  width: 80%;
   padding: 50px 0;
 }
 
 .logo-rockerbox-container img{
-  width: 400px;
+  width: 70%;
 }
 
 .rockerbox p{
@@ -686,17 +686,16 @@ footer h2{
 }
 
 .rockerbox{
-  width: 700px;
+  width: 70%;
   padding: 70px 0;
 }
 
 .logo-rockerbox-container img{
-  width: 350px;
+  width: 80%;
 }
 
 /*FOOTER*/
 #fish{
-
   bottom: 40px;
   right : 30px;
 }
