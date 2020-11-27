@@ -375,6 +375,45 @@ header .navbar ul li a{
 }
 /*END CUSTOMERS AROUND THE WORLD*/
 
+/*ROCKER BOX SECTION*/
+.rocker-box-section{
+  background-color: #ccc;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.rockerbox{
+  width: 250px;
+  margin: 100px auto 0;
+  background-color: #fff;
+  padding: 30px 0;
+
+}
+
+.logo-rockerbox-container img{
+  width: 200px;
+}
+
+.rockerbox p{
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.rockerbox a p{
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.rocker-box-section .circles{
+  margin-top: 30px;
+}
+
+
+
+
+
+/*END ROCKER BOX SECTION*/
+
 /*MEDIA QUERY*/
 @media screen and (min-width:768px){
 
@@ -522,9 +561,7 @@ header .navbar ul li a{
 
 }
 
-.circles{
-  margin-top: 10px;
-}
+
 /*END DESIGNED FOR DEV SECTION*/
 
 }
