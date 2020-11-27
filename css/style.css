@@ -387,6 +387,7 @@ header .navbar ul li a{
 
 .rockerbox{
   margin-top: 100px;
+  width: 70%;
   background-color: #fff;
   position: relative;
   left: 50%;
@@ -402,7 +403,7 @@ header .navbar ul li a{
 
 
 .logo-rockerbox-container img{
-  width: 200px;
+  width: 80%;
 }
 
 .rockerbox p{
@@ -494,6 +495,7 @@ footer h2{
   position: fixed;
   bottom: 50px;
   left: 30px;
+  border-radius: 4px;
 }
 
 /*END FOOTER*/
@@ -691,6 +693,20 @@ footer h2{
 .logo-rockerbox-container img{
   width: 350px;
 }
+
+/*FOOTER*/
+#fish{
+
+  bottom: 40px;
+  right : 30px;
+}
+
+#fumetto-fish{
+  bottom: 40px;
+  right: 150px;
+
+}
+/*END FOOTER*/
 
 
 
