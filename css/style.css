@@ -591,8 +591,26 @@ header .navbar ul li a{
 
 }
 
-
 /*END DESIGNED FOR DEV SECTION*/
+
+/*ROCKER-BOX-SECTION*/
+
+.rocker-box-section h2{
+  font-size: 38px;
+}
+
+.rockerbox{
+  width: 700px;
+  padding: 70px 0;
+}
+
+.logo-rockerbox-container img{
+  width: 350px;
+}
+
+
+
+/*END ROCKER-BOX-SECTION*/
 
 }
 
