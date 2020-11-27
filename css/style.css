@@ -387,6 +387,7 @@ header .navbar ul li a{
   margin: 100px auto 0;
   background-color: #fff;
   padding: 30px 0;
+  position: relative;
 
 }
 
@@ -504,6 +505,35 @@ header .navbar ul li a{
 }
 /*END FEATURES BUSINESS SECTION*/
 }
+
+/*ROCKER-BOX-SECTION*/
+.rockerbox{
+  width: 450px;
+}
+
+.logo-rockerbox-container img{
+  width: 400px;
+}
+
+.rockerbox p{
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.rockerbox span{
+  font-size: 16px;
+}
+
+.rockerbox a p{
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.rocker-box-section .circles{
+  margin-top: 30px;
+}
+
+/*END ROCKER-BOX-SECTION*/
 
 
 
