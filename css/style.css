@@ -381,13 +381,13 @@ header .navbar ul li a{
 /*ROCKER BOX SECTION*/
 .rocker-box-section{
   background-color: #ccc;
-  padding: 50px 20px;
+  padding: 50px 2px;
   text-align: center;
 }
 
 .rockerbox{
   margin-top: 100px;
-  width: 70%;
+  width: 60%;
   background-color: #fff;
   position: relative;
   left: 50%;
@@ -395,15 +395,8 @@ header .navbar ul li a{
   text-align: center;
 }
 
-.rockerbox-container{
-  padding: 50px 15px;
-  height: 100%;
-}
-
-
-
 .logo-rockerbox-container img{
-  width: 80%;
+  width: 75%;
 }
 
 .rockerbox p{
@@ -593,12 +586,12 @@ footer h2{
 
 /*ROCKER-BOX-SECTION*/
 .rockerbox{
-  width: 80%;
+  width: 40%;
   padding: 50px 0;
 }
 
 .logo-rockerbox-container img{
-  width: 70%;
+  width: 55%;
 }
 
 .rockerbox p{
@@ -686,12 +679,12 @@ footer h2{
 }
 
 .rockerbox{
-  width: 70%;
+  width: 40%;
   padding: 70px 0;
 }
 
 .logo-rockerbox-container img{
-  width: 80%;
+  width: 55%;
 }
 
 /*FOOTER*/
