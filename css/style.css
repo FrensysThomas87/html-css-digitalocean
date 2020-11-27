@@ -109,7 +109,7 @@ header .navbar ul li a{
 }
 
 .reg-form{
-  height: 380px;
+
   background-color: #fff;
   border-radius: 4px;
   text-align: center;
@@ -357,14 +357,14 @@ header .navbar ul li a{
 .customers-world ul li a{
   color: #00b4cd;
   margin-right: 15px;
+  text-align: right;
 }
-
-
 
 .customers-world ul li{
   display: inline-block;
-
 }
+
+
 
 .customers-world ul:nth-child(7){
   margin-top: 50px;
@@ -373,6 +373,9 @@ header .navbar ul li a{
 .customers-world .container .row .ul-customers-container ul li:nth-child(2){
   color: #B1C1E8;
 }
+
+
+
 /*END CUSTOMERS AROUND THE WORLD*/
 
 /*ROCKER BOX SECTION*/
@@ -383,13 +386,20 @@ header .navbar ul li a{
 }
 
 .rockerbox{
-  width: 250px;
-  margin: 100px auto 0;
+  margin-top: 100px;
   background-color: #fff;
-  padding: 30px 0;
   position: relative;
-
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
 }
+
+.rockerbox-container{
+  padding: 50px 15px;
+  height: 100%;
+}
+
+
 
 .logo-rockerbox-container img{
   width: 200px;
@@ -409,11 +419,38 @@ header .navbar ul li a{
   margin-top: 30px;
 }
 
-
-
-
-
 /*END ROCKER BOX SECTION*/
+
+/*FOOTER*/
+footer{
+  background-color: #002AA4;
+  text-align: center;
+  color: #fff;
+}
+
+.top-footer{
+  padding: 60px 0;
+}
+
+footer h2{
+  font-size: 40px;
+
+}
+
+ .bl-create-account{
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.links-bot{
+  background-color: #031C4E;
+  height: 800px;
+}
+/*END FOOTER*/
 
 /*MEDIA QUERY*/
 @media screen and (min-width:768px){
@@ -509,6 +546,7 @@ header .navbar ul li a{
 /*ROCKER-BOX-SECTION*/
 .rockerbox{
   width: 450px;
+  padding: 50px 0;
 }
 
 .logo-rockerbox-container img{
