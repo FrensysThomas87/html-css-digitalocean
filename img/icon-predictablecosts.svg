@@ -1,48 +1,19 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" viewBox="0 0 45 45">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: url(#linear-gradient);
-      }
-
-      .cls-2, .cls-3, .cls-4 {
-        fill: none;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-2, .cls-3 {
-        stroke: #0069ff;
-      }
-
-      .cls-3 {
-        opacity: 0.3;
-      }
-
-      .cls-4 {
-        stroke: #120078;
-      }
-    </style>
-    <linearGradient id="linear-gradient" x1="22.5" y1="42.39" x2="22.5" y2="22.93" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0069ff" stop-opacity="0.3"/>
-      <stop offset="0.36" stop-color="#0069ff" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#0069ff" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <title>Artboard 15 copy 4</title>
-  <g>
-    <g>
-      <polygon class="cls-1" points="39.91 42.83 13.2 42.83 12.96 33.88 5.09 34.12 5.09 2.83 39.91 2.83 39.91 42.83"/>
-      <polyline class="cls-2" points="4.68 33.95 12.91 33.95 12.91 42.17"/>
-      <rect class="cls-3" x="4.68" y="16.24" width="35.63" height="11.85"/>
-      <line class="cls-3" x1="40.32" y1="22.17" x2="4.68" y2="22.17"/>
-      <line class="cls-4" x1="10.87" y1="10.38" x2="19.35" y2="10.38"/>
-      <line class="cls-2" x1="27.1" y1="34.09" x2="33.88" y2="34.09"/>
-      <line class="cls-3" x1="13.72" y1="16.31" x2="13.72" y2="28.16"/>
-      <line class="cls-3" x1="22.89" y1="16.31" x2="22.89" y2="28.16"/>
-      <polyline class="cls-2" points="40.32 17.11 40.32 3.23 4.68 3.23 4.68 33.95 12.91 42.17 40.32 42.17 40.32 15.39"/>
-    </g>
-    <polyline class="cls-4" points="40.32 41.05 40.32 3.23 5.66 3.23"/>
-  </g>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" rx="4" fill="#F2F8FF"/>
+<g clip-path="url(#clip0)">
+<path d="M30.25 15.761H18.75C18.1977 15.761 17.75 16.2087 17.75 16.761V31.261C17.75 31.8133 18.1977 32.261 18.75 32.261H30.25C30.8023 32.261 31.25 31.8133 31.25 31.261V16.761C31.25 16.2087 30.8023 15.761 30.25 15.761Z" stroke="#0069FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.75 29.261H14.75C14.3522 29.261 13.9706 29.103 13.6893 28.8216C13.408 28.5403 13.25 28.1588 13.25 27.761V14.261C13.25 13.8632 13.408 13.4816 13.6893 13.2003C13.9706 12.919 14.3522 12.761 14.75 12.761H25.25C25.6478 12.761 26.0294 12.919 26.3107 13.2003C26.592 13.4816 26.75 13.8632 26.75 14.261V15.761" stroke="#0069FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.25 26.261H10.25C9.85218 26.261 9.47064 26.103 9.18934 25.8216C8.90804 25.5403 8.75 25.1588 8.75 24.761V11.261C8.75 10.8632 8.90804 10.4816 9.18934 10.2003C9.47064 9.91902 9.85218 9.76099 10.25 9.76099H20.75C21.1478 9.76099 21.5294 9.91902 21.8107 10.2003C22.092 10.4816 22.25 10.8632 22.25 11.261V12.761" stroke="#0069FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25.25 20.261H28.25" stroke="#0069FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.75 19.511L21.5 20.261L23 18.761" stroke="#0069FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25.25 24.761H28.25" stroke="#0069FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.75 24.011L21.5 24.761L23 23.261" stroke="#0069FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25.25 29.261H28.25" stroke="#0069FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.75 28.511L21.5 29.261L23 27.761" stroke="#0069FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<path d="M8 9H32V33H8V9Z" fill="white"/>
+</clipPath>
+</defs>
 </svg>
