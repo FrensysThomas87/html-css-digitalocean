@@ -367,10 +367,12 @@ header .navbar ul li{
 .customers-world .container .row .ul-customers-container ul li:nth-child(2){
   color: #B1C1E8;
   margin-left: 50px;
+  min-width: 160px;
 }
 
 .customers-world .container .row .ul-customers-container ul li:nth-child(3){
   text-align: right;
+  margin-left: 170px;
 }
 
 
@@ -504,9 +506,8 @@ footer h2{
 @media screen and (min-width:360px) and (max-width:483px){
   .loghi-container img{
     width: 110px;
+}
 
-
-  }
 }
 
 @media screen and (min-width:768px){
