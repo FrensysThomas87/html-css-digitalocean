@@ -242,7 +242,7 @@ header .navbar ul li{
 
 .for-dev-img-container{
   margin-top: 150px;
-  width: 300px;
+  width: 80%;
   position: relative;
   left: 50%;
   transform: translate(-50%);
@@ -395,7 +395,7 @@ header .navbar ul li{
 
 .rockerbox{
   margin-top: 100px;
-  width: 60%;
+  width: 90%;
   background-color: #fff;
   position: relative;
   left: 50%;
@@ -670,7 +670,7 @@ footer h2{
 .for-dev-img-container{
   margin-top: 50px;
   width: 600px;
-  height: 400px;
+  /* height: 400px; */
 }
 
 .fa.fa-chevron-left,.fa.fa-chevron-right
