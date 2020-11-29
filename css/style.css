@@ -78,7 +78,7 @@ header .navbar ul li{
 
 /*JUMBOTRON*/
 .bl-jumbotron{
-  height: 720px;
+  /* height: 720px; */
   padding-bottom: 50px;
   background-image: url("../img/bg-home-1-d54581d7.jpg");
   background-size: cover;
@@ -500,6 +500,15 @@ footer h2{
 /*END FOOTER*/
 
 /*MEDIA QUERY*/
+
+@media screen and (min-width:360px) and (max-width:483px){
+  .loghi-container img{
+    width: 110px;
+
+
+  }
+}
+
 @media screen and (min-width:768px){
 
 /*JUMBOTRON*/
