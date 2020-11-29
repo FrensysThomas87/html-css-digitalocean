@@ -21,7 +21,12 @@
 }
 
 .float-r{
-  float: right;
+  float:right;
+}
+
+.nav-container{
+  width: 1170px;
+  margin: 0 auto;
 }
 /*END UTILITIES*/
 
@@ -31,6 +36,19 @@
  header .navbar{
   margin-top: 30px;
   height: 50px;
+}
+
+header .navbar .left{
+  min-width: 180px;
+}
+
+header .navbar .central{
+  max-width: 355px;
+  margin-left: 100px;
+}
+
+header .navbar .right{
+  max-width: 350px;
 }
 
 
@@ -395,7 +413,7 @@ header .navbar ul li{
 
 .rockerbox{
   margin-top: 100px;
-  width: 90%;
+  width: 300px;
   background-color: #fff;
   position: relative;
   left: 50%;
@@ -404,7 +422,7 @@ header .navbar ul li{
 }
 
 .logo-rockerbox-container img{
-  width: 55%;
+  width: 85%;
 }
 
 .rockerbox p{
@@ -634,6 +652,15 @@ footer h2{
   .central li{
     margin-top: 5px;
     padding-right: 10px;
+  }
+
+  header .navbar .central{
+    max-width: 355px;
+    margin-left: 80px;
+  }
+
+  header .navbar .right{
+    max-width: 350px;
   }
 
   .central li:last-child{
