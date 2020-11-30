@@ -26,7 +26,7 @@
 
 .nav-container{
   max-width: 1170px;
-                            margin: 0 auto;
+  margin: 0 auto;
 }
 /*END UTILITIES*/
 
@@ -358,6 +358,8 @@ header .navbar ul li{
 }
 
 
+
+
 .customers-world ul{
   padding-bottom: 10px;
 }
@@ -368,8 +370,7 @@ header .navbar ul li{
 
 .customers-world ul li a{
   color: #00b4cd;
-   margin-right: 15px;
-  text-align: right;
+  margin-left: 170px;
 
 }
 
@@ -388,19 +389,9 @@ header .navbar ul li{
   min-width: 160px;
 }
 
-.customers-world .container .row .ul-customers-container ul li:nth-child(3){
-  text-align: right;
-  margin-left: 170px;
-}
-
-
 .customers-world ul:nth-child(7){
   margin-top: 50px;
 }
-
-
-
-
 
 /*END CUSTOMERS AROUND THE WORLD*/
 
@@ -501,11 +492,15 @@ footer h2{
   color: #8E97AC;
 }
 
+
+
 #fish{
   position: fixed;
   bottom: 100px;
   left: 30px;
 }
+
+
 
 #fumetto-fish{
   width: 300px;
@@ -515,6 +510,12 @@ footer h2{
   bottom: 50px;
   left: 30px;
   border-radius: 4px;
+  display: none;
+}
+
+ #fish:hover + #fumetto-fish{
+  display: block;
+  cursor: pointer;
 }
 
 /*END FOOTER*/
@@ -525,6 +526,10 @@ footer h2{
   .loghi-container img{
     width: 110px;
 }
+
+}
+
+@media screen and (min-width:360px) and (max-width:583px){
 
 }
 
