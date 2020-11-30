@@ -509,9 +509,8 @@ footer h2{
   bottom: 50px;
   left: 30px;
   border-radius: 4px;
-  display: none;
-}
 
+}
 
 
 .fa.fa-caret-right{
@@ -519,6 +518,10 @@ footer h2{
   bottom: 60px;
   left: 329px;
   font-size: 25px;
+
+}
+
+#fumetto-fish, .fa.fa-caret-right{
   display: none;
 }
 
