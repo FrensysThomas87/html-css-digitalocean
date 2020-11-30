@@ -513,10 +513,23 @@ footer h2{
   display: none;
 }
 
- #fish:hover + #fumetto-fish{
-  display: block;
-  cursor: pointer;
+
+
+.fa.fa-caret-right{
+  position: fixed;
+  bottom: 60px;
+  left: 329px;
+  font-size: 25px;
+  display: none;
 }
+
+#fish:hover + #fumetto-fish + .fa.fa-caret-right,
+#fish:hover + #fumetto-fish
+ {
+ display: block;
+}
+
+
 
 /*END FOOTER*/
 
@@ -728,6 +741,7 @@ footer h2{
 .logo-rockerbox-container img{
   width: 55%;
 }
+/*END ROCKER-BOX-SECTION*/
 
 /*FOOTER*/
 #fish{
@@ -741,11 +755,13 @@ footer h2{
   right: 150px;
   left:unset;
 }
+
+.fa.fa-caret-right{
+  left: unset;
+  right: 142px;
+}
 /*END FOOTER*/
 
-
-
-/*END ROCKER-BOX-SECTION*/
 
 }
 
