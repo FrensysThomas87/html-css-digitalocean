@@ -28,6 +28,12 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+
+.clearfix::after{
+  content:"";
+  display: table;
+  clear: both;
+}
 /*END UTILITIES*/
 
 
@@ -350,7 +356,6 @@ header .navbar ul li{
 
 
 .customers-world ul{
-  text-align: left;
   margin-top: 20px;
   padding-left: 15px;
 }
@@ -366,17 +371,12 @@ header .navbar ul li{
 
 .customers-world ul li a{
   color: #00b4cd;
+  padding-right: 10px;
 
 }
 
-.customers-world ul li:nth-child(3){
-  text-align: right;
-  width: 50%;
-
-}
-
-.customers-world ul li{
-  display: inline-block;
+ .customers-world ul li{
+  list-style: none;
 }
 
 .ul-customers-container ul li:first-child{
@@ -384,10 +384,10 @@ header .navbar ul li{
 
 }
 
-.customers-world .container .row .ul-customers-container ul li:nth-child(2){
+ .customers-world .container .row .ul-customers-container ul li:nth-child(2){
   color: #B1C1E8;
   margin-left: 50px;
-  min-width: 160px;
+
 }
 
 .customers-world ul:nth-child(7){
